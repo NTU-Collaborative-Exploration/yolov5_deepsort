@@ -44,7 +44,7 @@ class Tracker:
 
         self.kf = kalman_filter.KalmanFilter()
         self.tracks = []
-        self._next_id = channel << 24 + 1
+        self._next_id = channel << 24 | 1  # 高8位存放通道序号
 
     def predict(self):
         """Propagate track state distributions one time step forward.
