@@ -1,0 +1,6 @@
+[submodule "yolov5"]
+	path = yolov5
+	url = git@github.com:NTU-Collaborative-Exploration/yolov5.git
+[submodule "deep_sort/deep/reid"]
+	path = deep_sort/deep/reid
+	url = git@github.com:NTU-Collaborative-Exploration/deep_person_reid.git
