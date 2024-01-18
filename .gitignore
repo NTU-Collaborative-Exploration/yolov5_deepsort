@@ -2,11 +2,11 @@
 .idea/
 __pycache__/
 runs/
-*.pth
-*.pt
+
+
 *.onnx
 *.engine
 
-deep_sort/deep/reid/
-yolov5/
+
+
 datasets/
